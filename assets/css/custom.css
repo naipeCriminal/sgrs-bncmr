@@ -1,0 +1,538 @@
+@font-face {
+    font-family: 'bentonsansbold';
+    src: url('fontsBBVA/bentonsansbbva-bold-webfont.woff2') format('woff2'),
+         url('fontsBBVA/bentonsansbbva-bold-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+@font-face {
+    font-family: 'bentonsansbookbbva';
+    src: url('fontsBBVA/bentonsansbbva-book-webfont.woff2') format('woff2'),
+         url('fontsBBVA/bentonsansbbva-book-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'bentonsanslight';
+    src: url('fontsBBVA/bentonsansbbva-light-webfont.woff2') format('woff2'),
+         url('fontsBBVA/bentonsansbbva-light-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'bentonsansmedium';
+    src: url('fontsBBVA/bentonsansbbva-medium-webfont.woff2') format('woff2'),
+         url('fontsBBVA/bentonsansbbva-medium-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'bentonsansbold';
+    src: url('fontsBBVA/bentonsans-bold-webfont.woff2') format('woff2'),
+         url('fontsBBVA/bentonsans-bold-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'bentonsansbook';
+    src: url('fontsBBVA/bentonsans-book-webfont.woff2') format('woff2'),
+         url('fontsBBVA/bentonsans-book-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'bentonsanslight';
+    src: url('fontsBBVA/bentonsans-light-webfont.woff2') format('woff2'),
+         url('fontsBBVA/bentonsans-light-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'bentonsansmedium';
+    src: url('fontsBBVA/bentonsans-medium-webfont.woff2') format('woff2'),
+         url('fontsBBVA/bentonsans-medium-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+.space{
+	height: 35px;
+	width: 100%;
+}
+.migas{
+	color: #0073c9;
+}
+.btn,.btn-default{
+	border-radius: 0px 0px 0px 0px;
+	-moz-border-radius: 0px 0px 0px 0px;
+	-webkit-border-radius: 0px 0px 0px 0px;
+	-webkit-box-shadow: 10px 10px 37px -10px rgba(0,0,0,0.26);
+	-moz-box-shadow: 10px 10px 37px -10px rgba(0,0,0,0.26);
+	box-shadow: 10px 10px 37px -10px rgba(0,0,0,0.26);
+	border-color: none !important;
+	border:none;
+}
+.migas span{
+	color:#999999;
+}
+h1{
+	color:#003f8c;
+}
+.footer ul{
+	padding: 0px;
+	list-style: none;
+}
+p{
+	color:#999999;
+}
+.btn-blue{
+	color: white;
+	text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.25);
+	background-color: #0068c5;
+	background-image: -moz-linear-gradient(top, #0078d2, #004fb0);
+	background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#0078d2), to(#004fb0));
+	background-image: -webkit-linear-gradient(top, #0078d2, #004fb0);
+	background-image: -o-linear-gradient(top, #0078d2, #004fb0);
+	background-image: linear-gradient(to bottom, #0078d2, #004fb0);
+	background-repeat: repeat-x;
+	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#0075cd', endColorstr='#004dab', GradientType=0);
+	border-color: #004fb0 #004fb0 #002d63;
+	border-color: rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.25);
+	filter: progid:DXImageTransform.Microsoft.gradient(enabled=false);
+}
+.btn-blue:hover{
+    color: white;
+    background-color: #004fb0;	
+	color: #003f8c;
+	text-decoration: none;
+	background-position: 0 -15px;
+	-webkit-transition: background-position 0.1s linear;
+	-moz-transition: background-position 0.1s linear;
+	-o-transition: background-position 0.1s linear;
+	transition: background-position 0.1s linear;	
+}
+.seguimiento1{
+	padding-top: 80px;
+	padding-bottom: 80px;
+}
+.seguimiento2{
+	padding-top: 130px;
+	padding-bottom: 130px;
+}
+.pastillaind{
+	padding: 20px;
+	background: rgba(255, 255, 255, 0.68);
+}
+
+.azulf-1{
+	color:#094FA4;
+}
+.azul-1{
+	background: #094FA4;
+}
+.azulf-2{
+	background: #006EC1;
+}
+.azul-2{
+	background: #006EC1;
+}
+.azulf-3{
+	color:#009EE5;	
+}
+.azul-3{
+	background: #009EE5;
+}
+.azulf-4{
+	color:#52BCEC;	
+}
+.azul-4{
+	background: #52BCEC;
+
+}
+.azulf-5{
+	color:#89D1F3;	
+}
+.azul-5{
+	background: #89D1F3;
+
+}
+.azulf-6{
+	color:#B5E5F9;	
+}
+.azul-6{
+	background: #B5E5F9;
+}
+.narafnja{
+	color:#F6891E;	
+}
+
+.reparaciones{
+	padding: 4% 19% 4% 19%;
+}
+.naranja:hover,.naranja:focus,.naranja:active,.naranja:active:hover{
+	background:#F6891E;
+}
+.magefnta{
+	color:#C8175E;	
+}
+.magenta{
+	background: #C8175E;
+}
+.verdfe{
+	color:#86C82D	
+}
+.verde{
+	background: #86C82D;;
+}
+.grisf-1{
+	color:#1a1a1a;	
+}
+.gris-1{
+	background: #1a1a1a;
+}
+.grisf-2{
+	font-size: 17px;
+	color:#363636;	
+}
+.gris-2{
+	background: #363636;
+}
+.grisf-3{
+	color:#666666;	
+}
+.gris-3{
+	background: #666666;
+}
+.grisf-4{
+	color:#cccccc;	
+}
+.gris-4{
+	background: #cccccc;
+}
+.grisf-5{
+	color:#d8d8d8;	
+}
+.gris-5{
+	background: #d8d8d8;
+}
+.grisf-6{
+	color:#f2f2f2;	
+}
+.gris-6{
+	background: #f2f2f2;
+}
+
+/*  Estilos banner texto  */
+.pastillaind h1{
+   font-size: 32px;
+   font-family: 'bentonsansbookbbva';
+}
+.pastillaind p{
+   font-size: 16px;
+   font-family: 'bentonsansbookbbva';
+}
+
+/* Termina estilos banner texto */
+
+/*  Estilos Azul-2 */
+.seguros a.btn{
+	position: relative;
+	bottom: -80px;
+	left: 25px;
+	padding-left: 20px;
+	padding-right: 20px;	
+}
+.seguros{
+	padding-top: 15px;
+}
+.seguros p{
+	color: #ffffff;
+	line-height: 10px;
+}
+.seguros h3{
+	color: #ffffff;
+	font-size: 20px;
+	font-family: 'bentonsansbookbbva';	
+}
+.seguros .img-seguros{
+    height: 150px;
+    background-size: cover;	
+}
+
+/*  Termina estilos Azul-2 */
+
+/* Estilos Azul-1  Otros seguros  */
+.otros-seguros .panel.panel-default{
+	border-radius: 0px 0px 0px 0px;
+	-moz-border-radius: 0px 0px 0px 0px;
+	-webkit-border-radius: 0px 0px 0px 0px;
+	border: 1px solid #009EE5;	
+	color: #ffffff;
+	padding-left: 15px;
+	padding-right: 15px;	
+}
+.otros-seguros .panel-body{
+	padding: 5px;
+}
+.otros-seguros h3{
+	font-size: 20px;
+	font-family: 'bentonsansbookbbva';
+}
+.otros-seguros h2{
+	color: #ffffff;
+}
+.otros-seguros h1{
+	color: #ffffff;
+	font-size: 36px;
+	font-family: 'bentonsansbookbbva';
+}
+.otros-seguros .panel.panel-default p{
+	color: #fff;
+	font-size: 15px;
+	font-family: 'bentonsansbookbbva';
+}
+.otros-seguros .panel.panel-default h1{
+	color:#363636;
+	font-size: 20px;
+	font-family: 'bentonsansbookbbva';
+}
+.otros-seguros .panel.panel-default.seguimiento h2,.otros-seguros .panel.panel-default.seguimiento p{
+	color:#363636;
+	font-size: 15px;
+}
+
+.otros-seguros .panel.panel-default.seguimiento{
+	height: 213px;
+}
+.otros-seguros .panel.panel-default.seguimiento.oculto{
+	height: inherit;	
+}
+.otros-seguros .panel.panel-default.seguimiento button{
+	color: #ffffff;
+	font-size: 14px;
+	font-family: 'bentonsansbookbbva';
+}
+.control {
+	margin-top: 4px;
+}
+.control h1{
+	color: #363636;
+	font-size: 20px;
+	font-family: 'bentonsansbookbbva';
+}
+.marcoB{
+	background: #ffffff;
+	padding-left: 15px;
+	padding-right: 15px;
+	margin-top: 25px;
+    margin-bottom: 25px;
+    height: 340px;
+}
+/* Termina estilos Azul-1 otros seguros */
+
+/*Estilos container call gisf-2   */
+.naranja{
+	background:#F6891E;
+	margin-top: 32px;
+    padding-left: 34px;
+    padding-right: 34px;
+    color: white;
+}
+.call h1{
+	font-size: 20px;
+	font-family: 'bentonsansbookbbva';
+}
+.call p{
+	font-size: 15px;
+	font-family: 'bentonsansbookbbva';
+}
+/*  Termina container call gris-2  */
+
+/* Estilos ventana chat  */
+.chat{
+	padding: 17px 1px;
+	position: fixed;
+	top:25%;
+	right: 0px;
+	height: 70px;
+	background: #ffffff;
+	border-radius: 20px 0px 0px 20px;
+	-moz-border-radius: 20px 0px 0px 20px;
+	-webkit-border-radius: 40px 0px 0px 40px;
+	border: 0px dotted #000000;
+	-webkit-box-shadow: 2px 2px 7px 0px rgba(0,0,0,0.75);
+	-moz-box-shadow: 2px 2px 7px 0px rgba(0,0,0,0.75);
+	box-shadow: 2px 2px 7px 0px rgba(0,0,0,0.75);	
+}
+.chat span{
+	font-size: 11px;
+	position: relative;
+	top: -15px;	
+}
+/* Termina Estilos ventana chat  */
+
+/*  Estilos footer 		  */
+.footer h4{
+	font-size: 14px;
+	font-family: 'bentonsansbookbbva';
+}
+.footer ul a{
+	color: #666666;
+	font-size: 12px;
+	font-family:  'bentonsansbookbbva';
+}
+
+/* Termina estilos footer */
+.carousel-caption{
+	text-shadow: none;
+	top: 20%;
+}
+.moveimag {
+		padding-top: 22px;
+}
+.control {
+	margin-top: 4px;
+}
+li span.azulf-3 {
+	font-size: 15px;
+}
+.seguro_usa p{
+	font-size: 20px;
+	text-align: center;
+}
+
+.seguro_usa h1{
+	font-size: 58px;
+	text-align: center;
+}
+
+/* Navegador*/
+.navegador li{
+	list-style-type: none;
+	display: inline;
+	text-align: center;
+	margin: 0 -5px 0 0;
+	padding: 2px 5px 2px 5px;
+	text-decoration: none;
+	border-right: 1px;
+}
+ .navegador li a{
+ 	color: #fff;
+ }
+  .navegador li a img {
+ 	height: 30px;
+ 	padding: 3px;
+ }
+.degradado {
+	color: white;
+	text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.25);
+	background-color: #0068c5;
+	background-image: -moz-linear-gradient(top, #0078d2, #004fb0);
+	background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#0078d2), to(#004fb0));
+	background-image: -webkit-linear-gradient(top, #0078d2, #004fb0);
+	background-image: -o-linear-gradient(top, #0078d2, #004fb0);
+	background-image: linear-gradient(to bottom, #0078d2, #004fb0);
+	background-repeat: repeat-x;
+	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#0075cd', endColorstr='#004dab', GradientType=0);
+	border-color: #004fb0 #004fb0 #002d63;
+	border-color: rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.25);
+	filter: progid:DXImageTransform.Microsoft.gradient(enabled=false);
+}
+ .degradado:hover{
+ 	background-color: #004fb0;	
+	color: #003f8c;
+	text-decoration: none;
+	background-position: 0 -15px;
+	-webkit-transition: background-position 0.1s linear;
+	-moz-transition: background-position 0.1s linear;
+	-o-transition: background-position 0.1s linear;
+	transition: background-position 0.1s linear;	
+ }   
+    
+
+.navegador .fondo-degradado li:hover{
+    color: #000;
+    background: #fff;	
+		
+}
+.imagen img{
+	height: 100px;
+	padding: 15px;
+}
+.margen-menu {
+ 	margin-top: 10px;
+ }
+
+/* Fin Navegador */
+
+/* Estilos Panel */
+.panelColor{
+	color: white;
+    background-color: #009ee5;
+    padding: 10px 15px;
+    border-color: #009ee5;
+}
+.bordeAzul{
+	border-color: #009ee5;
+}
+.bordeAzul tbody tr td{
+	border-color: #009ee5;
+}
+.bordeAzul thead tr th{
+	border-bottom: 1px solid #009ee5;
+}
+/* Estilos Panel */
+
+.der{
+	float: right;
+}
+.margen-menu {
+	margin-top: 10px;
+}
+.collapsed .flecha:after{
+	position: relative;
+    top: 1px;
+    display: inline-block;
+    font-family: 'Glyphicons Halflings';
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1;
+    -webkit-font-smoothing: antialiased;
+    content: "\e113";	 
+}
+.flecha:after{
+	position: relative;
+    top: 1px;
+    display: inline-block;
+    font-family: 'Glyphicons Halflings';
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1;
+    -webkit-font-smoothing: antialiased;
+    content: "\e114";	 
+}
+/* Estilos Panel */
+/*menu*/
+.navbar-default {
+    background: rgba(255, 255, 255, 0);
+    border: none;
+}
+/*/menu*/
+/*fotter */
+.menufooter ul li{
+	list-style-type: none;
+	float: left;
+	padding: 10px; 
+}

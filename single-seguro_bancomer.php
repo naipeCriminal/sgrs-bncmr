@@ -28,28 +28,6 @@ get_header(); ?>
 
 
 
-<?php 
-	if( have_rows('tipos-seguros') ):
-		while ( have_rows('tipos-seguros') ) : the_row();
-?>
-			<?php $tipossegurostitulo = get_sub_field('tiposseguros-titulo'); ?>
-			<?php echo $tipossegurostitulo; ?>
-
-			<?php $tipossegurossubtitulo = get_sub_field('tiposseguros-subtitulo'); ?>
-			<?php echo $tipossegurossubtitulo; ?>
-
-			<?php $tipossegurosimagen = get_sub_field('tiposseguros-imagen'); ?>
-			<?php echo $tipossegurosimagen; ?>
-
-			<?php $tipossegurosbotontxt = get_sub_field('tiposseguros-botontxt'); ?>
-			<?php echo $tipossegurosbotontxt; ?>
-
-			<?php $tipossegurosbotonlink = get_sub_field('tiposseguros-botonlink'); ?>
-			<?php echo $tipossegurosbotonlink; ?>	
-<?php 
-		endwhile;
-	endif;
-?>
 
 
 
@@ -69,51 +47,51 @@ get_header(); ?>
 
 
 <?php $seguimientoreparacionicono = get_field('seguimientoreparacion-icono'); ?>
-<?php echo $seguimientoreparacionicono; ?>
+
 
 
 <?php $seguimientoreparaciontitulo = get_field('seguimientoreparacion-titulo'); ?>
-<?php echo $seguimientoreparaciontitulo; ?>
+
 
 
 <?php $seguimientoreparacionsubtitulo = get_field('seguimientoreparacion-subtitulo'); ?>
-<?php echo $seguimientoreparacionsubtitulo; ?>
+
 
 
 <?php $seguimientoreparacionbotontxt = get_field('seguimientoreparacion-botontxt'); ?>
-<?php echo $seguimientoreparacionbotontxt; ?>
+
 
 
 <?php $seguimientoreparacionbotonlink = get_field('seguimientoreparacion-botonlink'); ?>
-<?php echo $seguimientoreparacionbotonlink; ?>
+
 
 
 <?php $autoalertaapp = get_field('autoalerta-app'); ?>
-<?php echo $autoalertaapp; ?>
+
 
 
 <?php $autoalertatitulo = get_field('autoalerta-titulo'); ?>
-<?php echo $autoalertatitulo; ?>
+
 
 
 <?php $autoalertasubtitulo = get_field('autoalerta-subtitulo'); ?>
-<?php echo $autoalertasubtitulo; ?>
+
 
 
 <?php $autoalertaicnoios = get_field('autoalerta-icnoios'); ?>
-<?php echo $autoalertaicnoios; ?>
+
 
 
 <?php $autoalertaicnandroid = get_field('autoalerta-icnandroid'); ?>
-<?php echo $autoalertaicnandroid; ?>
+
 
 
 <?php $autoalertabotontxt = get_field('autoalerta-botontxt'); ?>
-<?php echo $autoalertabotontxt; ?>
+
 
 
 <?php $autoalertabotonlink = get_field('autoalerta-botonlink'); ?>
-<?php echo $autoalertabotonlink; ?>
+
 
 <h1>seguros bancomer</h1>
 		<?php
@@ -129,4 +107,176 @@ get_header(); ?>
 
 		endwhile;
 		?>
+
+
+
+		<div id="carousel-id" class="carousel slide" data-ride="carousel">
+			<ol class="carousel-indicators">
+				<li data-target="#carousel-id" data-slide-to="0" class="active"></li>
+				<li data-target="#carousel-id" data-slide-to="1" class=""></li>
+				<li data-target="#carousel-id" data-slide-to="2" class=""></li>
+			</ol>
+			<div class="carousel-inner">
+				<div class="item active" style="background:url('data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI5MDAiIGhlaWdodD0iNTAwIj48cmVjdCB3aWR0aD0iOTAwIiBoZWlnaHQ9IjUwMCIgZmlsbD0iIzc3NyI+PC9yZWN0Pjx0ZXh0IHRleHQtYW5jaG9yPSJtaWRkbGUiIHg9IjQ1MCIgeT0iMjUwIiBzdHlsZT0iZmlsbDojN2E3YTdhO2ZvbnQtd2VpZ2h0OmJvbGQ7Zm9udC1zaXplOjU2cHg7Zm9udC1mYW1pbHk6QXJpYWwsSGVsdmV0aWNhLHNhbnMtc2VyaWY7ZG9taW5hbnQtYmFzZWxpbmU6Y2VudHJhbCI+Rmlyc3Qgc2xpZGU8L3RleHQ+PC9zdmc+') ; height:450px; width:100%";>
+					<div class="container">
+						<div class="carousel-caption ">
+							<div class="col-md-5 pastillaind">
+							<h1 class="grisf-1">Seguro de Autos</h1>
+							<p class="grisf-1">Proteger tu auto, así como tu hogar y bienes, cuesta muy poco. Ganar en tranquilidad, ahora es muy acsequible. Infórmate.</p>
+						</div>
+
+						</div>
+					</div>
+				</div>
+				<div class="item" style="background:url('data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI5MDAiIGhlaWdodD0iNTAwIj48cmVjdCB3aWR0aD0iOTAwIiBoZWlnaHQ9IjUwMCIgZmlsbD0iIzc3NyI+PC9yZWN0Pjx0ZXh0IHRleHQtYW5jaG9yPSJtaWRkbGUiIHg9IjQ1MCIgeT0iMjUwIiBzdHlsZT0iZmlsbDojN2E3YTdhO2ZvbnQtd2VpZ2h0OmJvbGQ7Zm9udC1zaXplOjU2cHg7Zm9udC1mYW1pbHk6QXJpYWwsSGVsdmV0aWNhLHNhbnMtc2VyaWY7ZG9taW5hbnQtYmFzZWxpbmU6Y2VudHJhbCI+Rmlyc3Qgc2xpZGU8L3RleHQ+PC9zdmc+') ; height:450px; width:100%";>
+					<div class="container">
+						<div class="carousel-caption ">
+							<div class="col-md-5 pastillaind">
+							<h1 class="grisf-1">Seguro de Autos</h1>
+							<p class="grisf-1">Proteger tu auto, así como tu hogar y bienes, cuesta muy poco. Ganar en tranquilidad, ahora es muy acsequible. Infórmate.</p>
+						</div>
+
+						</div>
+					</div>
+				</div>
+				<div class="item" style="background:url('data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI5MDAiIGhlaWdodD0iNTAwIj48cmVjdCB3aWR0aD0iOTAwIiBoZWlnaHQ9IjUwMCIgZmlsbD0iIzc3NyI+PC9yZWN0Pjx0ZXh0IHRleHQtYW5jaG9yPSJtaWRkbGUiIHg9IjQ1MCIgeT0iMjUwIiBzdHlsZT0iZmlsbDojN2E3YTdhO2ZvbnQtd2VpZ2h0OmJvbGQ7Zm9udC1zaXplOjU2cHg7Zm9udC1mYW1pbHk6QXJpYWwsSGVsdmV0aWNhLHNhbnMtc2VyaWY7ZG9taW5hbnQtYmFzZWxpbmU6Y2VudHJhbCI+Rmlyc3Qgc2xpZGU8L3RleHQ+PC9zdmc+') ; height:450px; width:100%";>
+					<div class="container">
+						<div class="carousel-caption ">
+							<div class="col-md-5 pastillaind">
+							<h1 class="grisf-1">Seguro de Autos</h1>
+							<p class="grisf-1">Proteger tu auto, así como tu hogar y bienes, cuesta muy poco. Ganar en tranquilidad, ahora es muy acsequible. Infórmate.</p>
+						</div>
+
+						</div>
+					</div>
+				</div>
+
+			</div>
+			<a class="left carousel-control" href="#carousel-id" data-slide="prev"><span class="glyphicon glyphicon-chevron-left"></span></a>
+			<a class="right carousel-control" href="#carousel-id" data-slide="next"><span class="glyphicon glyphicon-chevron-right"></span></a>
+		</div>
+
+
+<div class="azul-2">
+	<div class="container">
+		<div class="space"></div>
+		<div class="row">
+			<div class="col-md-12">
+<?php 
+	if( have_rows('tipos-seguros') ):
+		while ( have_rows('tipos-seguros') ) : the_row();
+?>
+			<?php $tipossegurostitulo = get_sub_field('tiposseguros-titulo'); ?>
+			
+
+			<?php $tipossegurossubtitulo = get_sub_field('tiposseguros-subtitulo'); ?>
+			
+
+			<?php $tipossegurosimagen = get_sub_field('tiposseguros-imagen'); ?>
+			
+
+			<?php $tipossegurosbotontxt = get_sub_field('tiposseguros-botontxt'); ?>
+			
+
+			<?php $tipossegurosbotonlink = get_sub_field('tiposseguros-botonlink'); ?>
+
+
+				<div class="col-md-3 col-xs-6">
+					<div class="seguros">
+						<h3><?php echo $tipossegurostitulo; ?></h3>
+						<p><b><?php echo $tipossegurossubtitulo; ?></b></p>
+						<div style="background:url('<?php echo $tipossegurosimagen; ?>')" class="img-seguros";>
+							<a href="<?php echo $tipossegurosbotonlink; ?>" class=" btn-default btn naranja"><?php echo $tipossegurosbotontxt; ?></a>
+						</div>
+					</div>
+				</div>
+
+
+			
+<?php 
+		endwhile;
+	endif;
+?>
+								
+			</div>
+		</div>
+		<div class="space"></div>
+	</div>
+</div>		
+
+<div class="azul-1">
+	<div class="container otros-seguros">
+		<div class="row">
+			<div class="space"></div>
+			<h1 class="text-center">Otros seguros de Autos</h1>
+			<div class="space"></div>
+			<div class="col-md-6">
+
+
+
+<?php 
+	if( have_rows('panel') ):
+		while ( have_rows('panel') ) : the_row();
+?>
+			<?php $paneltitulo = get_sub_field('panel-titulo'); ?>
+			<?php $panelsubtitulo = get_sub_field('panel-subtitulo'); ?>
+				<div class="panel panel-default azul-1">
+					<div class="panel-body">
+					<h3><?php echo $paneltitulo; ?></h3>
+					<p><?php echo $panelsubtitulo; ?></p>
+					</div>
+				</div>				
+<?php 
+		endwhile;
+	endif;
+?>
+			</div>
+
+
+			<div class="col-md-6">
+				<div class="panel panel-default seguimiento">
+					<div class="panel-body">
+						<div class="col-md-2 col-lg-2 col-xs-2 moveimag">
+							<img src='<?php echo $seguimientoreparacionicono; ?>'>
+						</div>
+						<div class="col-md-10 col-lg-10 col-xs-10 control">
+							<h2><?php echo $seguimientoreparaciontitulo; ?></h2>
+							<p style="font-size: 157%;"><?php echo $seguimientoreparacionsubtitulo; ?></p>
+							<a href="<?php echo $seguimientoreparacionbotonlink; ?>">
+								<button type="button" class=" btn-default btn naranja reparaciones"><?php echo $seguimientoreparacionbotontxt; ?></button>
+							</a>
+						</div>
+						<div class="space"></div>
+					</div>
+				</div>
+			</div>	
+		</div>				
+	</div>
+				<div class="space"></div>
+ </div>
+
+</div>	
+<div class="gris-2">
+	<div class="container call">
+		<div class="space"></div>
+		<div class="row">
+
+			<div class="col-md-7">
+				<div class="col-md-2 imagen"><img src='<?php echo $autoalertaapp; ?>' alt=""></div>
+				<div class="col-md-9">
+					<h1 class="grisf-4"><?php echo $autoalertatitulo; ?></h1>
+					<p class="grisf-4"><?php echo $autoalertasubtitulo; ?></p>
+				</div>	
+			</div>
+			<div class="col-md-5">
+				<div class="col-md-6 col-xs-6">
+					<div class="col-lg-6 col-md-7 col-xs-7 imagen"><img src='<?php echo $autoalertaicnoios; ?>' alt=""></div>
+					<div class="col-lg-6 col-md-7 col-xs-7 imagen"><img src='<?php echo $autoalertaicnandroid; ?>' alt=""></div>
+				</div>
+				<div class="col-lg-6 col-md-8 col-xs-7"><a href="<?php echo $autoalertabotonlink; ?>"><h1 class=" btn-default btn naranja" style="margin-top: 32px"><?php echo $autoalertabotontxt; ?></h1></a></div>
+			</div>
+		</div>
+		<div class="space"></div>
+	</div>	
+</div>
 <?php get_footer(); ?>
