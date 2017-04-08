@@ -8,154 +8,55 @@
  */
 
 get_header(); ?>
+
+<?php $seguimientoreparacionicono = get_field('seguimientoreparacion-icono'); ?>
+<?php $seguimientoreparaciontitulo = get_field('seguimientoreparacion-titulo'); ?>
+<?php $seguimientoreparacionsubtitulo = get_field('seguimientoreparacion-subtitulo'); ?>
+<?php $seguimientoreparacionbotontxt = get_field('seguimientoreparacion-botontxt'); ?>
+<?php $seguimientoreparacionbotonlink = get_field('seguimientoreparacion-botonlink'); ?>
+<?php $autoalertaapp = get_field('autoalerta-app'); ?>
+<?php $autoalertatitulo = get_field('autoalerta-titulo'); ?>
+<?php $autoalertasubtitulo = get_field('autoalerta-subtitulo'); ?>
+<?php $autoalertaicnoios = get_field('autoalerta-icnoios'); ?>
+<?php $autoalertaicnandroid = get_field('autoalerta-icnandroid'); ?>
+<?php $autoalertabotontxt = get_field('autoalerta-botontxt'); ?>
+<?php $autoalertabotonlink = get_field('autoalerta-botonlink'); ?>
+		<div id="carousel-id" class="carousel slide" data-ride="carousel">
+
+			<div class="carousel-inner">				
 <?php
+$i=0;
 	if( have_rows('slider') ):
 		while ( have_rows('slider') ) : the_row();
 ?>
-			<?php $sliderimagen = get_sub_field('slider-imagen'); ?>
-			<?php echo $sliderimagen; ?>
-
+			<?php $sliderimagen = get_sub_field('slider-imagen'); ?>		
 			<?php $slidertitulo = get_sub_field('slider-titulo'); ?>
-			<?php echo $slidertitulo; ?>
-
 			<?php $sliderdescripcion = get_sub_field('slider-descripcion'); ?>
-			<?php echo $sliderdescripcion; ?>
+			<div class="item<?php if ($i==0) {echo ' active';} ?>" style="background:url('<?php echo $sliderimagen; ?>') ;background-size:cover ; height:450px; width:100%";>
+				<div class="container">
+					<div class="carousel-caption ">
+						<div class="col-md-5 pastillaind">
+						<h1 class="grisf-1"><?php echo $slidertitulo; ?></h1>
+						<p class="grisf-1"><?php echo $sliderdescripcion; ?></p>
+					</div>
 
-<?php 
-		endwhile;
-	endif;
-?>
-
-
-
-
-
-
-<?php 
-	if( have_rows('panel') ):
-		while ( have_rows('panel') ) : the_row();
-?>
-			<?php $paneltitulo = get_sub_field('panel-titulo'); ?>
-			<?php echo $paneltitulo; ?>
-
-			<?php $panelsubtitulo = get_sub_field('panel-subtitulo'); ?>
-			<?php echo $panelsubtitulo; ?>
-<?php 
-		endwhile;
-	endif;
-?>
-
-
-<?php $seguimientoreparacionicono = get_field('seguimientoreparacion-icono'); ?>
-
-
-
-<?php $seguimientoreparaciontitulo = get_field('seguimientoreparacion-titulo'); ?>
-
-
-
-<?php $seguimientoreparacionsubtitulo = get_field('seguimientoreparacion-subtitulo'); ?>
-
-
-
-<?php $seguimientoreparacionbotontxt = get_field('seguimientoreparacion-botontxt'); ?>
-
-
-
-<?php $seguimientoreparacionbotonlink = get_field('seguimientoreparacion-botonlink'); ?>
-
-
-
-<?php $autoalertaapp = get_field('autoalerta-app'); ?>
-
-
-
-<?php $autoalertatitulo = get_field('autoalerta-titulo'); ?>
-
-
-
-<?php $autoalertasubtitulo = get_field('autoalerta-subtitulo'); ?>
-
-
-
-<?php $autoalertaicnoios = get_field('autoalerta-icnoios'); ?>
-
-
-
-<?php $autoalertaicnandroid = get_field('autoalerta-icnandroid'); ?>
-
-
-
-<?php $autoalertabotontxt = get_field('autoalerta-botontxt'); ?>
-
-
-
-<?php $autoalertabotonlink = get_field('autoalerta-botonlink'); ?>
-
-
-<h1>seguros bancomer</h1>
-		<?php
-		// Start the loop.
-		while ( have_posts() ) : the_post();
-			the_title( '<h1 class="entry-title">', '</h1>' ); 
-
-
-
-
-
-
-
-		endwhile;
-		?>
-
-
-
-		<div id="carousel-id" class="carousel slide" data-ride="carousel">
-			<ol class="carousel-indicators">
-				<li data-target="#carousel-id" data-slide-to="0" class="active"></li>
-				<li data-target="#carousel-id" data-slide-to="1" class=""></li>
-				<li data-target="#carousel-id" data-slide-to="2" class=""></li>
-			</ol>
-			<div class="carousel-inner">
-				<div class="item active" style="background:url('data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI5MDAiIGhlaWdodD0iNTAwIj48cmVjdCB3aWR0aD0iOTAwIiBoZWlnaHQ9IjUwMCIgZmlsbD0iIzc3NyI+PC9yZWN0Pjx0ZXh0IHRleHQtYW5jaG9yPSJtaWRkbGUiIHg9IjQ1MCIgeT0iMjUwIiBzdHlsZT0iZmlsbDojN2E3YTdhO2ZvbnQtd2VpZ2h0OmJvbGQ7Zm9udC1zaXplOjU2cHg7Zm9udC1mYW1pbHk6QXJpYWwsSGVsdmV0aWNhLHNhbnMtc2VyaWY7ZG9taW5hbnQtYmFzZWxpbmU6Y2VudHJhbCI+Rmlyc3Qgc2xpZGU8L3RleHQ+PC9zdmc+') ; height:450px; width:100%";>
-					<div class="container">
-						<div class="carousel-caption ">
-							<div class="col-md-5 pastillaind">
-							<h1 class="grisf-1">Seguro de Autos</h1>
-							<p class="grisf-1">Proteger tu auto, así como tu hogar y bienes, cuesta muy poco. Ganar en tranquilidad, ahora es muy acsequible. Infórmate.</p>
-						</div>
-
-						</div>
 					</div>
 				</div>
-				<div class="item" style="background:url('data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI5MDAiIGhlaWdodD0iNTAwIj48cmVjdCB3aWR0aD0iOTAwIiBoZWlnaHQ9IjUwMCIgZmlsbD0iIzc3NyI+PC9yZWN0Pjx0ZXh0IHRleHQtYW5jaG9yPSJtaWRkbGUiIHg9IjQ1MCIgeT0iMjUwIiBzdHlsZT0iZmlsbDojN2E3YTdhO2ZvbnQtd2VpZ2h0OmJvbGQ7Zm9udC1zaXplOjU2cHg7Zm9udC1mYW1pbHk6QXJpYWwsSGVsdmV0aWNhLHNhbnMtc2VyaWY7ZG9taW5hbnQtYmFzZWxpbmU6Y2VudHJhbCI+Rmlyc3Qgc2xpZGU8L3RleHQ+PC9zdmc+') ; height:450px; width:100%";>
-					<div class="container">
-						<div class="carousel-caption ">
-							<div class="col-md-5 pastillaind">
-							<h1 class="grisf-1">Seguro de Autos</h1>
-							<p class="grisf-1">Proteger tu auto, así como tu hogar y bienes, cuesta muy poco. Ganar en tranquilidad, ahora es muy acsequible. Infórmate.</p>
-						</div>
-
-						</div>
-					</div>
-				</div>
-				<div class="item" style="background:url('data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI5MDAiIGhlaWdodD0iNTAwIj48cmVjdCB3aWR0aD0iOTAwIiBoZWlnaHQ9IjUwMCIgZmlsbD0iIzc3NyI+PC9yZWN0Pjx0ZXh0IHRleHQtYW5jaG9yPSJtaWRkbGUiIHg9IjQ1MCIgeT0iMjUwIiBzdHlsZT0iZmlsbDojN2E3YTdhO2ZvbnQtd2VpZ2h0OmJvbGQ7Zm9udC1zaXplOjU2cHg7Zm9udC1mYW1pbHk6QXJpYWwsSGVsdmV0aWNhLHNhbnMtc2VyaWY7ZG9taW5hbnQtYmFzZWxpbmU6Y2VudHJhbCI+Rmlyc3Qgc2xpZGU8L3RleHQ+PC9zdmc+') ; height:450px; width:100%";>
-					<div class="container">
-						<div class="carousel-caption ">
-							<div class="col-md-5 pastillaind">
-							<h1 class="grisf-1">Seguro de Autos</h1>
-							<p class="grisf-1">Proteger tu auto, así como tu hogar y bienes, cuesta muy poco. Ganar en tranquilidad, ahora es muy acsequible. Infórmate.</p>
-						</div>
-
-						</div>
-					</div>
-				</div>
-
 			</div>
+<?php
+$i++;
+		endwhile;
+	endif;
+?>
+			</div>
+			<ol class="carousel-indicators">
+				<?php for ($j=0; $j < $i; $j++) { ?>
+					<li data-target="#carousel-id" data-slide-to="<?php echo $j; ?>" class="<?php if ($j==0) {echo ' active';} ?>"></li>	
+				<?php  } ?> 
+			</ol>
 			<a class="left carousel-control" href="#carousel-id" data-slide="prev"><span class="glyphicon glyphicon-chevron-left"></span></a>
 			<a class="right carousel-control" href="#carousel-id" data-slide="next"><span class="glyphicon glyphicon-chevron-right"></span></a>
 		</div>
-
 
 <div class="azul-2">
 	<div class="container">
@@ -166,38 +67,28 @@ get_header(); ?>
 	if( have_rows('tipos-seguros') ):
 		while ( have_rows('tipos-seguros') ) : the_row();
 ?>
-			<?php $tipossegurostitulo = get_sub_field('tiposseguros-titulo'); ?>
-			
-
+			<?php $tipossegurostitulo = get_sub_field('tiposseguros-titulo'); ?>	
 			<?php $tipossegurossubtitulo = get_sub_field('tiposseguros-subtitulo'); ?>
-			
-
 			<?php $tipossegurosimagen = get_sub_field('tiposseguros-imagen'); ?>
-			
-
-			<?php $tipossegurosbotontxt = get_sub_field('tiposseguros-botontxt'); ?>
-			
-
+			<?php $tipossegurosbotontxt = get_sub_field('tiposseguros-botontxt'); ?>			
 			<?php $tipossegurosbotonlink = get_sub_field('tiposseguros-botonlink'); ?>
-
 
 				<div class="col-md-3 col-xs-6">
 					<div class="seguros">
 						<h3><?php echo $tipossegurostitulo; ?></h3>
 						<p><b><?php echo $tipossegurossubtitulo; ?></b></p>
-						<div style="background:url('<?php echo $tipossegurosimagen; ?>')" class="img-seguros";>
+						<div style="background:url('<?php echo $tipossegurosimagen; ?>'); background-size: cover;" class="img-seguros";>
+						<?php if ($tipossegurosbotonlink != '') { ?>
 							<a href="<?php echo $tipossegurosbotonlink; ?>" class=" btn-default btn naranja"><?php echo $tipossegurosbotontxt; ?></a>
+						<?php } ?>
+							
 						</div>
 					</div>
-				</div>
-
-
-			
+				</div>			
 <?php 
 		endwhile;
 	endif;
-?>
-								
+?>								
 			</div>
 		</div>
 		<div class="space"></div>
@@ -211,9 +102,6 @@ get_header(); ?>
 			<h1 class="text-center">Otros seguros de Autos</h1>
 			<div class="space"></div>
 			<div class="col-md-6">
-
-
-
 <?php 
 	if( have_rows('panel') ):
 		while ( have_rows('panel') ) : the_row();
@@ -231,7 +119,6 @@ get_header(); ?>
 	endif;
 ?>
 			</div>
-
 
 			<div class="col-md-6">
 				<div class="panel panel-default seguimiento">

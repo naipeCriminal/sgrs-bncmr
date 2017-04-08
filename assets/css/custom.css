@@ -1,72 +1,75 @@
-@font-face {
-    font-family: 'bentonsansbold';
-    src: url('fontsBBVA/bentonsansbbva-bold-webfont.woff2') format('woff2'),
-         url('fontsBBVA/bentonsansbbva-bold-webfont.woff') format('woff');
-    font-weight: normal;
-    font-style: normal;
 
-}
 @font-face {
-    font-family: 'bentonsansbookbbva';
-    src: url('fontsBBVA/bentonsansbbva-book-webfont.woff2') format('woff2'),
-         url('fontsBBVA/bentonsansbbva-book-webfont.woff') format('woff');
-    font-weight: normal;
-    font-style: normal;
-
+	font-family: 'BBVA Web Book bold';
+	src: url('../fonts/BBVAWebBook-Bold.eot');
+	src: url('../fonts/BBVAWebBook-Bold.eot?#iefix') format('embedded-opentype'),
+		url('../fonts/BBVAWebBook-Bold.woff') format('woff'),
+		url('../fonts/BBVAWebBook-Bold.ttf') format('truetype');
+	font-weight: bold;
+	font-style: normal;
 }
 
 @font-face {
-    font-family: 'bentonsanslight';
-    src: url('fontsBBVA/bentonsansbbva-light-webfont.woff2') format('woff2'),
-         url('fontsBBVA/bentonsansbbva-light-webfont.woff') format('woff');
-    font-weight: normal;
-    font-style: normal;
-
+	font-family: 'BBVA Web light bold italic';
+	src: url('../fonts/BBVAWebLight-BoldItalic.eot');
+	src: url('../fonts/BBVAWebLight-BoldItalic.eot?#iefix') format('embedded-opentype'),
+		url('../fonts/BBVAWebLight-BoldItalic.woff') format('woff'),
+		url('../fonts/BBVAWebLight-BoldItalic.ttf') format('truetype');
+	font-weight: 300;
+	font-style: italic;
 }
 
 @font-face {
-    font-family: 'bentonsansmedium';
-    src: url('fontsBBVA/bentonsansbbva-medium-webfont.woff2') format('woff2'),
-         url('fontsBBVA/bentonsansbbva-medium-webfont.woff') format('woff');
-    font-weight: normal;
-    font-style: normal;
-
+	font-family: 'BBVA Web light italic';
+	src: url('../fonts/BBVAWebLight-Italic.eot');
+	src: url('../fonts/BBVAWebLight-Italic.eot?#iefix') format('embedded-opentype'),
+		url('../fonts/BBVAWebLight-Italic.woff') format('woff'),
+		url('../fonts/BBVAWebLight-Italic.ttf') format('truetype');
+	font-weight: 300;
+	font-style: italic;
 }
 
 @font-face {
-    font-family: 'bentonsansbold';
-    src: url('fontsBBVA/bentonsans-bold-webfont.woff2') format('woff2'),
-         url('fontsBBVA/bentonsans-bold-webfont.woff') format('woff');
-    font-weight: normal;
-    font-style: normal;
-
+	font-family: 'BBVA Web ligth bold';
+	src: url('../fonts/BBVAWebLight-Bold.eot');
+	src: url('../fonts/BBVAWebLight-Bold.eot?#iefix') format('embedded-opentype'),
+		url('../fonts/BBVAWebLight-Bold.woff') format('woff'),
+		url('../fonts/BBVAWebLight-Bold.ttf') format('truetype');
+	font-weight: 300;
+	font-style: normal;
 }
 
 @font-face {
-    font-family: 'bentonsansbook';
-    src: url('fontsBBVA/bentonsans-book-webfont.woff2') format('woff2'),
-         url('fontsBBVA/bentonsans-book-webfont.woff') format('woff');
-    font-weight: normal;
-    font-style: normal;
-
+	font-family: 'Stag Sans';
+	src: url('../fonts/StagSans-Book.eot');
+	src: url('../fonts/StagSans-Book.eot?#iefix') format('embedded-opentype'),
+		url('../fonts/StagSans-Book.woff') format('woff'),
+		url('../fonts/StagSans-Book.ttf') format('truetype');
+	font-weight: normal;
+	font-style: normal;
 }
 
 @font-face {
-    font-family: 'bentonsanslight';
-    src: url('fontsBBVA/bentonsans-light-webfont.woff2') format('woff2'),
-         url('fontsBBVA/bentonsans-light-webfont.woff') format('woff');
-    font-weight: normal;
-    font-style: normal;
-
+	font-family: 'BBVA Web light regular';
+	src: url('../fonts/BBVAWebLight-Regular.eot');
+	src: url('../fonts/BBVAWebLight-Regular.eot?#iefix') format('embedded-opentype'),
+		url('../fonts/BBVAWebLight-Regular.woff') format('woff'),
+		url('../fonts/BBVAWebLight-Regular.ttf') format('truetype');
+	font-weight: 300;
+	font-style: normal;
 }
 
 @font-face {
-    font-family: 'bentonsansmedium';
-    src: url('fontsBBVA/bentonsans-medium-webfont.woff2') format('woff2'),
-         url('fontsBBVA/bentonsans-medium-webfont.woff') format('woff');
-    font-weight: normal;
-    font-style: normal;
+	font-family: 'Stag Sans light';
+	src: url('../fonts/StagSans-Light.eot');
+	src: url('../fonts/StagSans-Light.eot?#iefix') format('embedded-opentype'),
+		url('../fonts/StagSans-Light.woff') format('woff'),
+		url('../fonts/StagSans-Light.ttf') format('truetype');
+	font-weight: 300;
+	font-style: normal;
 }
+
+
 .space{
 	height: 35px;
 	width: 100%;
@@ -237,11 +240,13 @@ p{
 /*  Estilos banner texto  */
 .pastillaind h1{
    font-size: 32px;
-   font-family: 'bentonsansbookbbva';
+	font-family: 'Stag Sans light';
+	font-weight: 700;
 }
 .pastillaind p{
    font-size: 16px;
-   font-family: 'bentonsansbookbbva';
+	font-family: Stag Sans light;
+	font-weight: 700;
 }
 
 /* Termina estilos banner texto */
@@ -259,12 +264,12 @@ p{
 }
 .seguros p{
 	color: #ffffff;
-	line-height: 10px;
+	font-family: 'Stag Sans'
 }
 .seguros h3{
 	color: #ffffff;
 	font-size: 20px;
-	font-family: 'bentonsansbookbbva';	
+	font-family: 'BBVA Web light regular';	
 }
 .seguros .img-seguros{
     height: 150px;
@@ -288,7 +293,7 @@ p{
 }
 .otros-seguros h3{
 	font-size: 20px;
-	font-family: 'bentonsansbookbbva';
+	font-family: 'Stag Sans light';
 }
 .otros-seguros h2{
 	color: #ffffff;
@@ -296,12 +301,12 @@ p{
 .otros-seguros h1{
 	color: #ffffff;
 	font-size: 36px;
-	font-family: 'bentonsansbookbbva';
+	font-family: 'Stag Sans light';
 }
 .otros-seguros .panel.panel-default p{
 	color: #fff;
 	font-size: 15px;
-	font-family: 'bentonsansbookbbva';
+	font-family: 'BBVA Web light italic';
 }
 .otros-seguros .panel.panel-default h1{
 	color:#363636;
@@ -314,7 +319,12 @@ p{
 }
 
 .otros-seguros .panel.panel-default.seguimiento{
+	font-family:'BBVA Web light regular' ;
 	height: 213px;
+}
+.otros-seguros .panel.panel-default.seguimiento p{
+	font-size: 15px;
+	font-family: 'BBVA Web light regular';
 }
 .otros-seguros .panel.panel-default.seguimiento.oculto{
 	height: inherit;	
@@ -322,7 +332,7 @@ p{
 .otros-seguros .panel.panel-default.seguimiento button{
 	color: #ffffff;
 	font-size: 14px;
-	font-family: 'bentonsansbookbbva';
+	font-family: 'BBVA Web light regular';
 }
 .control {
 	margin-top: 4px;
@@ -352,11 +362,11 @@ p{
 }
 .call h1{
 	font-size: 20px;
-	font-family: 'bentonsansbookbbva';
+	font-family: 'BBVA Web light regular';
 }
 .call p{
 	font-size: 15px;
-	font-family: 'bentonsansbookbbva';
+	font-family: 'BBVA Web light regular';
 }
 /*  Termina container call gris-2  */
 
@@ -535,4 +545,16 @@ li span.azulf-3 {
 	list-style-type: none;
 	float: left;
 	padding: 10px; 
+}
+.menufooter ul{
+	margin:0 auto;
+	display: table;
+}
+.footer ul li a{
+	font-family: 'BBVA Web light regular';
+}
+.footer h4{
+	font-family: 'Stag Sans light';
+	font-weight: 700;
+
 }
