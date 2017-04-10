@@ -374,7 +374,7 @@ p{
 .chat{
 	padding: 17px 1px;
 	position: fixed;
-	top:25%;
+	top:65%;
 	right: 0px;
 	height: 70px;
 	background: #ffffff;
@@ -552,9 +552,13 @@ li span.azulf-3 {
 }
 .footer ul li a{
 	font-family: 'BBVA Web light regular';
+	color: #009EE5;
 }
 .footer h4{
 	font-family: 'Stag Sans light';
 	font-weight: 700;
 
+}
+span.bold{
+	font-weight: 700;
 }

@@ -70,9 +70,9 @@
 
 		<div class="chat">
 		<div class="col-md-3 col-xs-3">
-			<img src='assets/img/icn_11.png'> 
+			<img src='http://localhost/migracion/wp-content/uploads/2017/04/icn_11-1.png'> 
 		</div>
-		<div class="col-md-8 col-xs-8">
+		<div class="col-md-8 col-xs-8 hidden-xs">
 			<p class="grisf-2"><b>Chat</b></p>
 			<span class="grisf-3">07:00 - 22:00 hrs</span>
 		</div>

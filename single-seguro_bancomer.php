@@ -129,7 +129,7 @@ $i++;
 						<div class="col-md-10 col-lg-10 col-xs-10 control">
 							<h2><?php echo $seguimientoreparaciontitulo; ?></h2>
 							<p style="font-size: 157%;"><?php echo $seguimientoreparacionsubtitulo; ?></p>
-							<a href="<?php echo $seguimientoreparacionbotonlink; ?>">
+							<a href="<?php echo $seguimientoreparacionbotonlink; ?>" class="text-center">
 								<button type="button" class=" btn-default btn naranja reparaciones"><?php echo $seguimientoreparacionbotontxt; ?></button>
 							</a>
 						</div>
@@ -148,19 +148,19 @@ $i++;
 		<div class="space"></div>
 		<div class="row">
 
-			<div class="col-md-7">
-				<div class="col-md-2 imagen"><img src='<?php echo $autoalertaapp; ?>' alt=""></div>
-				<div class="col-md-9">
+			<div class="col-md-6 col-xs-12">
+				<div class="col-md-3 col-xs-4 imagen text-center"><img src='<?php echo $autoalertaapp; ?>' alt=""></div>
+				<div class="col-md-9 col-xs-8">
 					<h1 class="grisf-4"><?php echo $autoalertatitulo; ?></h1>
 					<p class="grisf-4"><?php echo $autoalertasubtitulo; ?></p>
 				</div>	
 			</div>
-			<div class="col-md-5">
-				<div class="col-md-6 col-xs-6">
-					<div class="col-lg-6 col-md-7 col-xs-7 imagen"><img src='<?php echo $autoalertaicnoios; ?>' alt=""></div>
-					<div class="col-lg-6 col-md-7 col-xs-7 imagen"><img src='<?php echo $autoalertaicnandroid; ?>' alt=""></div>
+			<div class="col-md-6">
+				<div class="col-md-6 col-xs-12">
+					<div class="col-lg-6 col-md-6 col-xs-6 imagen text-center"><img src='<?php echo $autoalertaicnoios; ?>' alt=""></div>
+					<div class="col-lg-6 col-md-6 col-xs-6 imagen text-center"><img src='<?php echo $autoalertaicnandroid; ?>' alt=""></div>
 				</div>
-				<div class="col-lg-6 col-md-8 col-xs-7"><a href="<?php echo $autoalertabotonlink; ?>"><h1 class=" btn-default btn naranja" style="margin-top: 32px"><?php echo $autoalertabotontxt; ?></h1></a></div>
+				<div class="col-lg-6 col-md-8 col-xs-12"><a href="<?php echo $autoalertabotonlink; ?>"><h1 class=" btn-default btn naranja col-xs-12" style="margin-top: 32px"><?php echo $autoalertabotontxt; ?></h1></a></div>
 			</div>
 		</div>
 		<div class="space"></div>
