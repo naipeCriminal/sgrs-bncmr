@@ -32,6 +32,7 @@ $i=0;
 			<?php $sliderimagen = get_sub_field('slider-imagen'); ?>		
 			<?php $slidertitulo = get_sub_field('slider-titulo'); ?>
 			<?php $sliderdescripcion = get_sub_field('slider-descripcion'); ?>
+			
 			<div class="item<?php if ($i==0) {echo ' active';} ?>" style="background:url('<?php echo $sliderimagen; ?>') ;background-size:cover ; height:450px; width:100%";>
 				<div class="container">
 					<div class="carousel-caption ">

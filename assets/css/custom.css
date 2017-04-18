@@ -93,10 +93,7 @@
 h1{
 	color:#003f8c;
 }
-.footer ul{
-	padding: 0px;
-	list-style: none;
-}
+
 p{
 	color:#999999;
 }
@@ -333,6 +330,7 @@ p{
 	color: #ffffff;
 	font-size: 14px;
 	font-family: 'BBVA Web light regular';
+	margin: 15px;
 }
 .control {
 	margin-top: 4px;
@@ -403,7 +401,10 @@ p{
 	font-size: 12px;
 	font-family:  'bentonsansbookbbva';
 }
-
+.footer ul{
+	list-style-type: none;
+	padding: 0px;
+}
 /* Termina estilos footer */
 .carousel-caption{
 	text-shadow: none;
@@ -460,17 +461,6 @@ li span.azulf-3 {
 	border-color: rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.25);
 	filter: progid:DXImageTransform.Microsoft.gradient(enabled=false);
 }
- .degradado:hover{
- 	background-color: #004fb0;	
-	color: #003f8c;
-	text-decoration: none;
-	background-position: 0 -15px;
-	-webkit-transition: background-position 0.1s linear;
-	-moz-transition: background-position 0.1s linear;
-	-o-transition: background-position 0.1s linear;
-	transition: background-position 0.1s linear;	
- }   
-    
 
 .navegador .fondo-degradado li:hover{
     color: #000;
@@ -541,6 +531,11 @@ li span.azulf-3 {
 }
 /*/menu*/
 /*fotter */
+.footer .sociales ul li{
+	float: left;
+	padding: 3px;
+
+}
 .menufooter ul li{
 	list-style-type: none;
 	float: left;
@@ -561,4 +556,27 @@ li span.azulf-3 {
 }
 span.bold{
 	font-weight: 700;
+}
+.navbar{
+	margin-bottom:0px;	
+}
+.navbar ul li{
+    background: url(http://ec2-54-77-102-116.eu-west-1.compute.amazonaws.com/wp-content/uploads/2017/04/separador-menu.png);
+    background-repeat: no-repeat;
+    background-position: right 0px;
+    padding-left: 5px;
+}
+.navbar ul li a{
+    padding-left: 20px;
+    padding-right: 10px;	
+}
+.imghead{
+	position: absolute;
+	top: 15px;
+	left: 0px;
+	width: 31px;
+	height: 29px;
+	background: url('http://ec2-54-77-102-116.eu-west-1.compute.amazonaws.com/wp-content/uploads/2017/04/icn_menu_11.png');
+	background-size: cover;
+	background-repeat: no-repeat;
 }

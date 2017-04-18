@@ -40,12 +40,12 @@
 					<li> <a href="#">Correo Electrónico</a> </li>
 				</ul>
 			</div>
-			<div class="col-md-6 col-xs-6"><h4>REDES</h4>
+			<div class="col-md-6 col-xs-6 sociales"><h4>REDES SOCIALES</h4>
 				<ul>
-					<li> <a href="#">Facebook</a> </li>
-					<li> <a href="#">Twitter</a> </li>
-					<li> <a href="#">YouTube</a> </li>
-					<li> <a href="#">Google +</a> </li>
+					<li> <a href="#"><img src='http://ec2-54-77-102-116.eu-west-1.compute.amazonaws.com/wp-content/uploads/2017/04/sm_34.png' alt=""></a> </li>
+					<li> <a href="#"><img src='http://ec2-54-77-102-116.eu-west-1.compute.amazonaws.com/wp-content/uploads/2017/04/sm_36.png' alt=""></a> </li>
+					<li> <a href="#"><img src='http://ec2-54-77-102-116.eu-west-1.compute.amazonaws.com/wp-content/uploads/2017/04/sm_38.png' alt=""></a> </li>
+					<li> <a href="#"><img src='http://ec2-54-77-102-116.eu-west-1.compute.amazonaws.com/wp-content/uploads/2017/04/sm_40.png' alt=""></a> </li>
 				</ul>
 			</div>	
 		</div>
@@ -70,7 +70,7 @@
 
 		<div class="chat">
 		<div class="col-md-3 col-xs-3">
-			<img src='http://localhost/migracion/wp-content/uploads/2017/04/icn_11-1.png'> 
+			<img src='http://ec2-54-77-102-116.eu-west-1.compute.amazonaws.com/wp-content/uploads/2017/04/icn_11.png'> 
 		</div>
 		<div class="col-md-8 col-xs-8 hidden-xs">
 			<p class="grisf-2"><b>Chat</b></p>

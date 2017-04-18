@@ -30,7 +30,7 @@
 		<?php wp_head(); ?>
 </head>
 <body>
-<div class="">
+	<div class="degradado">
 	<div class="container">
 		<div class="row">
 			<nav class="navbar navbar-default mseguros">
@@ -43,19 +43,30 @@
 			        <span class="icon-bar"></span>
 			        <span class="icon-bar"></span>
 			      </button>
-			      <a class="navbar-brand" href="#">Brand</a>
+			      <a class="navbar-brand" href="#"><span class = "imghead home"></span></a>
 			    </div>
 
 			    <!-- Collect the nav links, forms, and other content for toggling -->
 			    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-			      <ul class="nav navbar-nav">
-			        <li class="active"><a href="#">Link <span class="sr-only">(current)</span></a></li>
-			        <li><a href="#">Link</a></li>
-			        <li><a href="#">Link</a></li>
-			        <li><a href="#">Link</a></li>
-			        <li><a href="#">Link</a></li>
-			        
+			      <ul class="nav navbar-nav mov">
+
+			        <li><a href="#"><span class = "imghead dona"></span><span class="sr-only">(current)</span></a></li>
+
+			        <li><a href="#"><span class = "imghead auto"></span>Autos</a></li>
+
+			        <li><a href="#"><span class = "imghead bienes"></span>Bienes</a></li>
+
+			        <li><a href="#"><span class = "imghead vida"></span>Vida y Familia</a></li>
+
+			        <li><a href="#"><span class = "imghead accidentes"></span>Accidentes y Enfermedades</a></li>
+
+			        <li><a href="#"><span class = "imghead salud"></span>Salud y GMM</a></li>
+
+			        <li><a href="#"><span class = "imghead pimes"></span>Pymes</a></li>
+
+			        <li><a href="#"><span class = "imghead empresas"></span>Empresas</a></li>
 			      </ul>
+
 
 			    </div><!-- /.navbar-collapse -->
 			  </div><!-- /.container-fluid -->
@@ -63,4 +74,4 @@
 			
 		</div>
 	</div>	
-</div>
+</div>	
