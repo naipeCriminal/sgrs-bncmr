@@ -25,56 +25,48 @@ get_header(); ?>
  ?>
 
 
-		<div class="jumbotron" style="background:url('<?php echo $imgDestacada; ?>');">
+<div class="jumbotron" style="background:url('<?php echo $imgDestacada; ?>');">
 
-  <div class="container seguro_usa">
-  <h1><?php the_title(); ?></h1>
-  <?php echo $imgDestacada; ?>
-<?php $principal_subtitulo = get_field('principal_subtitulo'); ?>  
-
-  <p><?php echo $principal_subtitulo; ?></p>
-    </div>
+	 <div class="container seguro_usa">
+	  <h1><?php the_title(); ?></h1>
+	<!--   <?php echo $imgDestacada; ?>
+	 --><?php $principal_subtitulo = get_field('principal_subtitulo'); ?>  
+		<div class="row">
+			<div class="col-md-3"></div>
+			<div class="col-md-6">
+	  			<p><?php echo $principal_subtitulo; ?></p>
+	    	</div>
+		</div>
+	</div>
 
 </div>
 
-<div class="container coberturas">
+<div class="container">
 	<div class="space"></div>
 	<div class="row">
 		<div class="col-md-12">
 			<h2>Coberturas</h2>
 			
-<?php the_content(); ?>
+			<?php the_content(); ?>
 
 		</div>
 	</div>
 </div>
 
-
-
 <div class="container coberturas">
 	<div class="space"></div>
 	<div class="row">
 		<div class="col-md-12">
-<div class="panel-group" id="accordion" role="tablist" aria-multiselectable="true">
-  <div class="panel panel-default">
-    <div class="panel-heading" role="tab" id="headingOne">
-      <h4 class="panel-title">
-        <a role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
-          Coberturas <span class="glyphicon glyphicon-chevron-down der" aria-hidden="true"></span>
-        </a>
-      </h4>
-    </div>
-    <div id="collapseOne" class="panel-collapse collapse in" role="tabpanel" aria-labelledby="headingOne">
-      <div class="panel-body">
-        <table class="table table-striped">
-					        	<thead>
-					        		<tr>
-					        			<th>Coberturas</th>
-					        			<th>Por persona</th>
-					        			<th>Por accidente</th>
-					        		</tr>
-					        	</thead>
-					        	<tbody>
+      		<div class="panel-body">
+        	<table class="table table-striped">
+		    	<thead>
+		    		<tr>
+		    			<th>Coberturas</th>
+		    			<th>Por persona</th>
+		    			<th>Por accidente</th>
+		    		</tr>
+		    	</thead>
+		    	<tbody>
 <?php 
 	if( have_rows('tabla-seguro') ):
 		while ( have_rows('tabla-seguro') ) : the_row();
@@ -91,18 +83,20 @@ get_header(); ?>
 ?>					        	
 
 
-					        	</tbody>
-					        </table>
+				</tbody>
+			</table>
       </div>
     </div>
   </div>
-  
 </div>	
-</div>
-</div>
-</div>
 
-
+<div class="container">
+	<div class="row">
+		<div class="col-md-12">
+			<h2>Condiciones Generales:   </h2>
+		</div>
+	</div>
+</div>
 
 <div class="azul-1">
 	<div class="container otros-seguros">

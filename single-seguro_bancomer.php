@@ -144,7 +144,7 @@ $i++;
  </div>
 
 </div>	
-<div class="gris-2">
+<!-- <div class="gris-2">
 	<div class="container call">
 		<div class="space"></div>
 		<div class="row">
@@ -166,5 +166,5 @@ $i++;
 		</div>
 		<div class="space"></div>
 	</div>	
-</div>
+</div> -->
 <?php get_footer(); ?>

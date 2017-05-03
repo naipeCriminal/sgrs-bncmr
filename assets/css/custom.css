@@ -314,7 +314,6 @@ p{
 	color:#363636;
 	font-size: 15px;
 }
-
 .otros-seguros .panel.panel-default.seguimiento{
 	font-family:'BBVA Web light regular' ;
 	height: 213px;
@@ -348,6 +347,12 @@ p{
     margin-bottom: 25px;
     height: 340px;
 }
+.marcoB li{
+	color: #9a9797
+}
+.marcoB:hover h4{color: #009ee5;} 
+.marcoB:hover li{color: #000;}
+
 /* Termina estilos Azul-1 otros seguros */
 
 /*Estilos container call gisf-2   */
@@ -392,6 +397,9 @@ p{
 /* Termina Estilos ventana chat  */
 
 /*  Estilos footer 		  */
+.negritas{
+	font-family: 'Stag Sans';
+}
 .footer h4{
 	font-size: 14px;
 	font-family: 'bentonsansbookbbva';
@@ -421,12 +429,14 @@ li span.azulf-3 {
 }
 .seguro_usa p{
 	font-size: 20px;
+	color: #fff;
 	text-align: center;
 }
 
 .seguro_usa h1{
 	font-size: 58px;
 	text-align: center;
+	color: #fff;
 }
 
 /* Navegador*/
@@ -446,21 +456,25 @@ li span.azulf-3 {
  	height: 30px;
  	padding: 3px;
  }
+
 .degradado {
 	color: white;
 	text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.25);
 	background-color: #0068c5;
-	background-image: -moz-linear-gradient(top, #0078d2, #004fb0);
-	background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#0078d2), to(#004fb0));
-	background-image: -webkit-linear-gradient(top, #0078d2, #004fb0);
-	background-image: -o-linear-gradient(top, #0078d2, #004fb0);
 	background-image: linear-gradient(to bottom, #0078d2, #004fb0);
 	background-repeat: repeat-x;
-	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#0075cd', endColorstr='#004dab', GradientType=0);
-	border-color: #004fb0 #004fb0 #002d63;
 	border-color: rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.25);
-	filter: progid:DXImageTransform.Microsoft.gradient(enabled=false);
 }
+ .degradado:hover{
+ 	background-color: #004fb0;	
+	color: #003f8c;
+	text-decoration: none;
+	background-position: 0 -15px;
+	-webkit-transition: background-position 0.1s linear;
+	-moz-transition: background-position 0.1s linear;
+	-o-transition: background-position 0.1s linear;
+	transition: background-position 0.1s linear;	
+ }   
 
 .navegador .fondo-degradado li:hover{
     color: #000;
@@ -542,12 +556,12 @@ li span.azulf-3 {
 	padding: 10px; 
 }
 .menufooter ul{
-	margin:0 auto;
 	display: table;
 }
 .footer ul li a{
-	font-family: 'BBVA Web light regular';
+	font-family: 'BBVA Web ligth bold';
 	color: #009EE5;
+	text-decoration: none;
 }
 .footer h4{
 	font-family: 'Stag Sans light';
@@ -557,6 +571,62 @@ li span.azulf-3 {
 span.bold{
 	font-weight: 700;
 }
+
+/* Inicio header */
+.imagen-header img{
+	height: 80px;
+	padding: 0px;
+}
+.space-header{
+	height: 20px;
+	width: 100%;
+}
+.space-header ul img{
+	padding: 19px;
+	height: 20px;
+}
+.header-principal .col-md-7{
+	width: 50%;
+} 
+.header{
+	list-style-type: none;
+	display: inline;
+}
+.header ul li{
+	display: inline;
+	margin: 0 -5px 0 0;
+	padding: 5px 5px 5px 5px;
+	text-decoration: none;
+	border-right: 1px;
+
+}
+.header a{
+    color: #959da0;
+    text-decoration: none;
+}
+.header a:hover{
+	    color: #f44336;
+    text-decoration: none;
+}
+
+.ima-head img{
+	height: 16px;
+	padding: 0px;
+}
+.separador-header{ 
+    background: url('../img/separador-menu.png');
+    background-repeat: no-repeat;
+    padding-left: 7px; 
+    padding-right: 7px;
+}
+.hidden-xs .hidden-sm{
+	overflow: hidden;
+}
+
+/* Fin header */
+
+
+/*menu*/
 .navbar{
 	margin-bottom:0px;	
 }
@@ -567,19 +637,91 @@ span.bold{
     padding-left: 5px;
 }
 .navbar ul li a{
-    padding-left: 20px;
+    padding-left: 40px;
     padding-right: 10px;	
 }
 .imghead{
 	position: absolute;
 	top: 15px;
 	left: 0px;
-	width: 31px;
-	height: 29px;
-	background: url('http://ec2-54-77-102-116.eu-west-1.compute.amazonaws.com/wp-content/uploads/2017/04/icn_menu_11.png');
+	width: 30px;
+	height: 30px;
 	background-size: cover;
 	background-repeat: no-repeat;
 }
+#bienes.imghead{
+	background: url('http://ec2-54-77-102-116.eu-west-1.compute.amazonaws.com/wp-content/uploads/2017/04/icn_menu_06.png');
+}
+#auto.imghead{
+	background: url('http://ec2-54-77-102-116.eu-west-1.compute.amazonaws.com/wp-content/uploads/2017/04/icn_menu_05.png');
+}
+#vida.imghead{
+	background: url('http://ec2-54-77-102-116.eu-west-1.compute.amazonaws.com/wp-content/uploads/2017/04/icn_menu_07.png');
+}
+#accidentes.imghead{
+	background: url('http://ec2-54-77-102-116.eu-west-1.compute.amazonaws.com/wp-content/uploads/2017/04/icn_menu_08.png');
+}
+#salud.imghead{
+	background: url('http://ec2-54-77-102-116.eu-west-1.compute.amazonaws.com/wp-content/uploads/2017/04/icn_menu_09.png');
+}
+#pymes.imghead{
+	background: url('http://ec2-54-77-102-116.eu-west-1.compute.amazonaws.com/wp-content/uploads/2017/04/icn_menu_10.png');
+}
+#empresa.imghead{
+	background: url('http://ec2-54-77-102-116.eu-west-1.compute.amazonaws.com/wp-content/uploads/2017/04/icn_menu_11.png');
+}
+.mseguros .mov li{
+	background: url('http://ec2-54-77-102-116.eu-west-1.compute.amazonaws.com/wp-content/uploads/2017/04/separador-menu.png');
+	background-repeat: no-repeat;
+	padding-left: 7px;
+	padding-right: 7px;
+}
+.mseguros .mov li a:hover{
+	color: #fff;
+}
+.navbar-default .navbar-nav li a {
+    color: #fff; 
+    left: 5px;
+}
+.navbar-default .navbar-nav li a:hover {
+    color: #fff;
+    background-color: #094fa4;
+}
+.navbar-nav li a {
+    line-height: 30px;
+}
+/*Estilos panel detalles-Seguros*/
+.coberturas .panel-heading{
+	background-color: #009EE5;
+	border-top-color: #009EE5; 
+	color: white;
+    padding-left: 60px;
+    padding-right: 40px;
+}
+.table{
+	border: solid 1px #009EE5;
+}
+.table tr td{
+	background-color: white;
+}
+.panel-body {
+	padding-left: 31px;
+}
+.table tbody tr td{
+	padding-right: 70px;
+    padding-left: 29px;
+    border-bottom: #009EE5 1px solid;
+}
+.table thead tr th{
+	padding-left: 30px;
+	background-color: #009EE5;
+	color: white;
+    padding-right: 40px;
+    border-bottom: none;
+    font-size: 16px;
+}
+/*Termina Estilos panel detalles-Seguros*/
+
 
 @media (max-width: 1090px) { /* <-- esta línea es la clave */
     .navbar-header {

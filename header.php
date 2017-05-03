@@ -30,6 +30,33 @@
 		<?php wp_head(); ?>
 </head>
 <body>
+
+
+<div class="container header-principal hidden-xs hidden-sm">
+		<div class="row">
+			<div class="col-md-6">
+				<div class="col-md-6 imagen-header"><img src='http://ec2-54-77-102-116.eu-west-1.compute.amazonaws.com/wp-content/uploads/2017/04/bbva-bancomer.jpg' alt=""></div>
+			</div>
+			<div class="col-md-6">
+			
+					<div class="col-md-12 header">
+					<div class="space-header"></div>
+					<ul>
+						<li class="ima-head"><span><a href=""><img src='http://ec2-54-77-102-116.eu-west-1.compute.amazonaws.com/wp-content/uploads/2017/04/sm_38.png' alt=""></li>
+						<li>Ayuda Bancomer</a></li>
+						<li class="ima-head separador-header"><a href=""><img src='http://ec2-54-77-102-116.eu-west-1.compute.amazonaws.com/wp-content/uploads/2017/04/sm_38.png' alt=""></li>
+						<li>Oficinas y Cajeros</a></li>
+						<li class="ima-head separador-header"><a href=""><img src='http://ec2-54-77-102-116.eu-west-1.compute.amazonaws.com/wp-content/uploads/2017/04/sm_38.png' alt=""></li>
+						<li>Contactanos</a></li>
+					</ul>
+					</div>
+			</div>
+		</div>
+		<div class="space-header"></div>
+</div>	
+
+
+
 	<div class="degradado">
 	<div class="container">
 		<div class="row">
@@ -43,31 +70,27 @@
 			        <span class="icon-bar"></span>
 			        <span class="icon-bar"></span>
 			      </button>
-			      <a class="navbar-brand" href="#"><span class = "imghead home"></span></a>
+			      <a class="navbar-brand" href="#"><span id="bienes" class = "imghead"></span></a>
 			    </div>
 
 			    <!-- Collect the nav links, forms, and other content for toggling -->
 			    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
 			      <ul class="nav navbar-nav mov">
 
-			        <li><a href="#"><span class = "imghead dona"></span><span class="sr-only">(current)</span></a></li>
+			        <li><a href="#"><span id="auto" class = "imghead"></span>Autos</a></li>
 
-			        <li><a href="#"><span class = "imghead auto"></span>Autos</a></li>
+			        <li><a href="#"><span id="bienes" class = "imghead"></span>Bienes</a></li>
 
-			        <li><a href="#"><span class = "imghead bienes"></span>Bienes</a></li>
+			        <li><a href="#"><span id="vida" class = "imghead"></span>Vida y Familia</a></li>
 
-			        <li><a href="#"><span class = "imghead vida"></span>Vida y Familia</a></li>
+			        <li><a href="#"><span id="accidentes" class = "imghead"></span>Accidentes y Enfermedades</a></li>
 
-			        <li><a href="#"><span class = "imghead accidentes"></span>Accidentes y Enfermedades</a></li>
+			        <li><a href="#"><span id="salud" class = "imghead"></span>Salud y GMM</a></li>
 
-			        <li><a href="#"><span class = "imghead salud"></span>Salud y GMM</a></li>
+			        <li><a href="#"><span id="pymes" class = "imghead"></span>Pymes</a></li>
 
-			        <li><a href="#"><span class = "imghead pimes"></span>Pymes</a></li>
-
-			        <li><a href="#"><span class = "imghead empresas"></span>Empresas</a></li>
+			        <li><a href="#"><span id="empresa" class = "imghead"></span>Empresas</a></li>
 			      </ul>
-
-
 			    </div><!-- /.navbar-collapse -->
 			  </div><!-- /.container-fluid -->
 			</nav>		

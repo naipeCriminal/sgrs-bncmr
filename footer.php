@@ -9,6 +9,30 @@
  * @since Twenty Sixteen 1.0
  */
 ?>
+<div class="gris-2">
+	<div class="container call">
+		<div class="space"></div>
+		<div class="row">
+
+			<div class="col-md-6 col-xs-12">
+				<div class="col-md-3 col-xs-4 imagen text-center"><img src="http://ec2-54-77-102-116.eu-west-1.compute.amazonaws.com/wp-content/uploads/2017/04/icn_03.png" alt=""></div>
+				<div class="col-md-9 col-xs-8">
+					<h1 class="grisf-4">AutoAlerta <span class="negritas">Bancomer</span></h1>
+					<p class="grisf-4">Descarga la aplicación más útil y reporta el siniestro de tu auto desde tu celular.</p>
+				</div>	
+			</div>
+			<div class="col-md-6">
+				<div class="col-md-6 col-xs-12">
+					<div class="col-lg-6 col-md-6 col-xs-6 imagen text-center"><img src="http://ec2-54-77-102-116.eu-west-1.compute.amazonaws.com/wp-content/uploads/2017/04/icn_07.png" alt=""></div>
+					<div class="col-lg-6 col-md-6 col-xs-6 imagen text-center"><img src="http://ec2-54-77-102-116.eu-west-1.compute.amazonaws.com/wp-content/uploads/2017/04/icn_09.png" alt=""></div>
+				</div>
+				<div class="col-lg-6 col-md-8 col-xs-12"><a href="#"><h1 class=" btn-default btn naranja col-xs-12" style="margin-top: 32px">Conóce más de la App</h1></a></div>
+			</div>
+		</div>
+		<div class="space"></div>
+	</div>	
+</div>
+
 <div class="container footer">
 	<div class="row">
 		<div class="space"></div>
@@ -82,6 +106,8 @@
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.2.4/jquery.js"></script>
 <!-- Latest compiled and minified JavaScript -->
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>	
+<script type="text/javascript" src="<?php echo bloginfo('template_url'); ?>/assets/js/Js.js"></script>
+
 </body>
 </html>
 <?php wp_footer(); ?>
